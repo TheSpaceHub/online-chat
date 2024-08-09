@@ -1,0 +1,17 @@
+{
+  "name": "online-chat-van",
+  "version": "1.0.0",
+  "description": "online chat project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "dan vancea",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
