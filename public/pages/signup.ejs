@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pages/styles.css">
+    <script src="/pages/login_js.js" defer></script>
+    <title>Vanchat - Sign up</title>
+</head>
+<body>
+    <nav>
+        <h1>Vanchat</h1>
+    </nav>
+    <form method="post" action="/signup">
+        <label for="username_signup">Username</label>
+        <input type="username" id="username_signup" name="username_signup" required>
+
+        <label for="password_signup">Password</label>
+        <input type="password" id="password_signup" name="password_signup" required>
+
+        <input type="submit" value="submit" id="submit">
+
+        <p id="error_message"><%- error_message %></p>
+    </form>
+</body>
+</html>
